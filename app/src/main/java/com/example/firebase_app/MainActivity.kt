@@ -88,5 +88,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun to_list(view: View) {
+        val intent = Intent(this, ItemList::class.java)
+        startActivity(intent)
+    }
+
 
 }
